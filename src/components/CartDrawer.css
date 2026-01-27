@@ -181,6 +181,6 @@
 @media (max-width: 768px) {
   .cart-drawer {
     width: 90%; /* Wider on mobile */
-    right: -80%;
+    right: -90%;
   }
 }
