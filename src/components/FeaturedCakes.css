@@ -1,0 +1,120 @@
+.featured-cakes {
+  padding: 5rem 2rem;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: #3e2723;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: 700;
+}
+
+.cakes-scroller {
+  display: flex;
+  gap: 2rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.cake-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  scroll-snap-align: start;
+}
+
+.cake-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.cake-image-wrapper {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  background-color: #f5f1eb;
+}
+
+.cake-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.cake-card:hover .cake-image {
+  transform: scale(1.1);
+}
+
+.cake-info {
+  padding: 1.5rem;
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.cake-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  color: #3e2723;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.cake-description {
+  font-size: 0.9rem;
+  color: #6d4c41;
+  margin-bottom: 1rem;
+  flex-grow: 1;
+}
+
+.cake-price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #d4af37;
+  margin-bottom: 1rem;
+}
+
+.add-to-cart-btn {
+  background-color: #8d6e63;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #6d4c41;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(141, 110, 99, 0.4);
+}
+
+@media (max-width: 768px) {
+  .cakes-scroller {
+    gap: 1.5rem;
+  }
+  .cake-image-wrapper {
+    height: 200px;
+  }
+}
