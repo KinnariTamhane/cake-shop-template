@@ -223,7 +223,7 @@ const CustomOrder = ({ addToCart }) => {
             />
           </div>
 
-          <div className="form-group">
+          {/* <div className="form-group">
             <label htmlFor="imageUpload">Upload Reference Image (Optional)</label>
             <div className="file-upload-wrapper">
               <input
@@ -236,7 +236,7 @@ const CustomOrder = ({ addToCart }) => {
                 <span>Choose File</span>
               </label>
             </div>
-          </div>
+          </div> */}
 
           <button type="submit" className="submit-button">
             Add to Cart
