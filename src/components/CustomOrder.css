@@ -235,4 +235,16 @@
   .order-form {
     padding: 20px;
   }
+  .order-summary{
+    text-align: right;
+  }
+  .price-display{
+    font-size: 1rem;
+  }
+  .cancel-btn{
+    font-size: 0.8rem;
+  }
+  .modal-content h3{
+    font-size: 1.4rem;
+  }
 }

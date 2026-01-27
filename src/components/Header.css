@@ -127,8 +127,12 @@
     font-size: 0.9rem;
   }
 
+  .nav-link{
+    font-size: 0.8rem;
+  }
+
   .cta-button {
     padding: 0.5rem 1rem;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 }
