@@ -1,5 +1,7 @@
 # Sweet Delights - Cake Shop
 
+Project URL : https://cakeshop-template.netlify.app/
+
 A modern, responsive single-page React application for a cake shop featuring beautiful UI components and smooth user interactions.
 
 ## Features
