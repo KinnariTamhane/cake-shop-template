@@ -31,7 +31,7 @@ section {
 
 .checkout-modal {
   background-color: #ffffff;
-  padding: 40px;
+  padding: 20px;
   border-radius: 20px;
   max-width: 720px;
   width: 95%;
@@ -256,4 +256,11 @@ section {
 .phone-section-invalid .phone-input {
   border-color: #e53935;
   background-color: #fff5f5;
+}
+
+@media (max-width: 768px) {
+
+  .checkout-modal {
+    padding:10px;
+  }
 }

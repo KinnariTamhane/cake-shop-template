@@ -94,6 +94,7 @@ const Checkout = ({ cartItems, onClose }) => {
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
               placeholder="Enter phone number"
+              maxLength='10'
               required
             />
             {phoneErrorActive && !isPhoneValid && (
