@@ -79,7 +79,7 @@ const FeaturedCakes = ({ addToCart }) => {
           {featuredCakes.map((cake) => (
             <div key={cake.id} className="cake-card">
               <div className="cake-image-wrapper">
-                <img fetchpriority="high" src={cake.image} alt={cake.name} className="cake-image" />
+                <img src={cake.image} alt={cake.name} className="cake-image" />
               </div>
               <div className="cake-info">
                 <h3 className="cake-name">{cake.name}</h3>
